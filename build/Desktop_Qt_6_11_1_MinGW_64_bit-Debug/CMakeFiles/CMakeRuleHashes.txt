@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+a84aef74b5fab30d99c64120b71bbd95 CMakeFiles/QuanLyChiTieu_autogen
+9c94cc5976716e6d06116a7423c79bbd QuanLyChiTieu_autogen/timestamp
