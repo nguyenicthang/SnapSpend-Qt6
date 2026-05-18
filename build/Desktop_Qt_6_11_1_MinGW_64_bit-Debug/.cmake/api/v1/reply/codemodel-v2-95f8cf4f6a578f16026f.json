@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-a7d5e5e3629affa71095.json",
+					"jsonFile" : "directory-.-Debug-6ac37ddbc010c135f795.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "QuanLyChiTieu::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-QuanLyChiTieu-Debug-c7371d4e59a260b3918f.json",
+					"jsonFile" : "target-QuanLyChiTieu-Debug-f3b3d61c8118f192e4a1.json",
 					"name" : "QuanLyChiTieu",
 					"projectIndex" : 0
 				},

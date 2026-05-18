@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "QuanLyChiTieu_autogen"
   "CMakeFiles/QuanLyChiTieu.dir/QuanLyChiTieu_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/QuanLyChiTieu.dir/QuanLyChiTieu_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/QuanLyChiTieu.dir/loc_dulieu.cpp.obj"
+  "CMakeFiles/QuanLyChiTieu.dir/loc_dulieu.cpp.obj.d"
   "CMakeFiles/QuanLyChiTieu.dir/main.cpp.obj"
   "CMakeFiles/QuanLyChiTieu.dir/main.cpp.obj.d"
   "CMakeFiles/QuanLyChiTieu.dir/mainwindow.cpp.obj"

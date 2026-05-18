@@ -59,6 +59,7 @@ C:/QuanLyChiTieu/mainwindow.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/qlatin1stringview.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/qline.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/qlist.h
+ mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/qlocale.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/qlogging.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/qmalloc.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/qmap.h
@@ -79,6 +80,7 @@ C:/QuanLyChiTieu/mainwindow.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/qprocessordetection.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/qrect.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/qrefcount.h
+ mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/qregularexpression.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/qscopedpointer.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/qscopeguard.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/qset.h
@@ -130,6 +132,7 @@ C:/QuanLyChiTieu/mainwindow.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/qversiontagging.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/qxptype_traits.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtCore/qyieldcpu.h
+ mdp:C:/Qt/6.11.1/mingw_64/include/QtGui/QIntValidator
  mdp:C:/Qt/6.11.1/mingw_64/include/QtGui/qaction.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtGui/qbitmap.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtGui/qbrush.h
@@ -154,6 +157,7 @@ C:/QuanLyChiTieu/mainwindow.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtGui/qtguiexports.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtGui/qtguiglobal.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtGui/qtransform.h
+ mdp:C:/Qt/6.11.1/mingw_64/include/QtGui/qvalidator.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtGui/qwindowdefs.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtGui/qwindowdefs_win.h
  mdp:C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMainWindow
@@ -380,7 +384,9 @@ C:/QuanLyChiTieu/mainwindow.h
  mdp:C:/QuanLyChiTieu/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/QuanLyChiTieu_autogen/moc_predefs.h
  mdp:C:/QuanLyChiTieu/mainwindow.h
 C:/QuanLyChiTieu/xuly_file.h
+C:/QuanLyChiTieu/loc_dulieu.h
 C:/QuanLyChiTieu/xuly_file.cpp
 C:/QuanLyChiTieu/main.cpp
+C:/QuanLyChiTieu/loc_dulieu.cpp
 C:/QuanLyChiTieu/mainwindow.cpp
  uic:ui_mainwindow.h

@@ -223,6 +223,30 @@ QuanLyChiTieu_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuanLyChiTieu.dir\build.make CMakeFiles/QuanLyChiTieu.dir/QuanLyChiTieu_autogen/mocs_compilation.cpp.s
 .PHONY : QuanLyChiTieu_autogen/mocs_compilation.cpp.s
 
+loc_dulieu.obj: loc_dulieu.cpp.obj
+.PHONY : loc_dulieu.obj
+
+# target to build an object file
+loc_dulieu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuanLyChiTieu.dir\build.make CMakeFiles/QuanLyChiTieu.dir/loc_dulieu.cpp.obj
+.PHONY : loc_dulieu.cpp.obj
+
+loc_dulieu.i: loc_dulieu.cpp.i
+.PHONY : loc_dulieu.i
+
+# target to preprocess a source file
+loc_dulieu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuanLyChiTieu.dir\build.make CMakeFiles/QuanLyChiTieu.dir/loc_dulieu.cpp.i
+.PHONY : loc_dulieu.cpp.i
+
+loc_dulieu.s: loc_dulieu.cpp.s
+.PHONY : loc_dulieu.s
+
+# target to generate assembly for a file
+loc_dulieu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuanLyChiTieu.dir\build.make CMakeFiles/QuanLyChiTieu.dir/loc_dulieu.cpp.s
+.PHONY : loc_dulieu.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -313,6 +337,9 @@ help:
 	@echo ... QuanLyChiTieu_autogen/mocs_compilation.obj
 	@echo ... QuanLyChiTieu_autogen/mocs_compilation.i
 	@echo ... QuanLyChiTieu_autogen/mocs_compilation.s
+	@echo ... loc_dulieu.obj
+	@echo ... loc_dulieu.i
+	@echo ... loc_dulieu.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

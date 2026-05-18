@@ -7,14 +7,63 @@
     <x>0</x>
     <y>0</y>
     <width>768</width>
-    <height>680</height>
+    <height>720</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Quản Lý Chi Tiêu</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">QPushButton { background-color: #4CAF50; color: white; border-radius: 5px; }</string>
+   <string notr="true">
+QPushButton#btn_HocTap, QPushButton#btn_DiChuyen, QPushButton#btn_AnUong {
+    background-color: #2ecc71; color: white; border: none;
+    border-radius: 6px; padding: 6px 12px; font-weight: bold;
+}
+QPushButton#btn_HocTap:hover, QPushButton#btn_DiChuyen:hover, QPushButton#btn_AnUong:hover {
+    background-color: #27ae60;
+}
+QPushButton#btn_Luu {
+    background-color: #27ae60; color: white; border: none;
+    border-radius: 6px; padding: 8px; font-weight: bold;
+}
+QPushButton#btn_Loc {
+    background-color: #16a085; color: white; border: none;
+    border-radius: 6px; padding: 6px 16px; font-weight: bold;
+}
+QPushButton#btn_Loc:hover { background-color: #1abc9c; }
+QPushButton#btn_XemTat {
+    background-color: #7f8c8d; color: white; border: none;
+    border-radius: 6px; padding: 6px 16px; font-weight: bold;
+}
+QPushButton#btn_XemTat:hover { background-color: #95a5a6; }
+QPushButton#btn_DanAnh {
+    background-color: #2980b9; color: white; border: none;
+    border-radius: 6px; padding: 6px 14px; font-weight: bold;
+}
+QPushButton#btn_DanAnh:hover { background-color: #3498db; }
+QLineEdit#txt_SoTien, QLineEdit#txt_GhiChu {
+    border: 2px solid #2ecc71; border-radius: 6px;
+    padding: 6px 10px; background-color: #ffffff;
+}
+QDateEdit#date_BatDau, QDateEdit#date_KetThuc {
+    border: 2px solid #2ecc71; border-radius: 6px;
+    padding: 4px 8px; background-color: #ffffff;
+}
+QLabel#lbl_TongTien {
+    color: #1e8449; font-size: 15px; font-weight: bold;
+    background-color: #d5f5e3; border: 2px solid #2ecc71;
+    border-radius: 6px; padding: 6px 12px;
+}
+QLabel#lbl_AnhHoaDon {
+    color: #2980b9; font-style: italic;
+}
+QTableWidget#table_GiaoDich QHeaderView::section {
+    background-color: #27ae60; color: white;
+    font-weight: bold; padding: 6px; border: none;
+}
+QMenuBar { background-color: #1e8449; color: white; }
+QStatusBar { background-color: #d5f5e3; color: #1e8449; }
+   </string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -26,7 +75,7 @@
      </widget>
     </item>
     <item>
-     <layout class="QHBoxLayout" name="horizontalLayout">
+     <layout class="QHBoxLayout" name="horizontalLayout_danhmuc">
       <item>
        <widget class="QPushButton" name="btn_HocTap">
         <property name="text">
@@ -58,11 +107,121 @@
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="btn_Luu">
-      <property name="text">
-       <string>Lưu</string>
+     <widget class="QLineEdit" name="txt_GhiChu">
+      <property name="placeholderText">
+       <string>Nhập ghi chú (tùy chọn)</string>
       </property>
      </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_luu">
+      <item>
+       <widget class="QPushButton" name="btn_DanAnh">
+        <property name="text">
+         <string>📋 Dán ảnh hóa đơn</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lbl_AnhHoaDon">
+        <property name="text">
+         <string>Chưa có ảnh</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="spacer_luu">
+        <property name="orientation">
+         <enum>Qt::Orientation::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>0</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_Luu">
+        <property name="text">
+         <string>💾 Lưu</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_loc">
+      <item>
+       <widget class="QLabel" name="lbl_TuNgay">
+        <property name="text">
+         <string>Từ ngày:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDateEdit" name="date_BatDau">
+        <property name="displayFormat">
+         <string>dd/MM/yyyy</string>
+        </property>
+        <property name="calendarPopup">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lbl_DenNgay">
+        <property name="text">
+         <string>Đến ngày:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDateEdit" name="date_KetThuc">
+        <property name="displayFormat">
+         <string>dd/MM/yyyy</string>
+        </property>
+        <property name="calendarPopup">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_Loc">
+        <property name="text">
+         <string>🔍 Lọc</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_XemTat">
+        <property name="text">
+         <string>Xem tất cả</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Orientation::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="lbl_TongTien">
+        <property name="text">
+         <string>Tổng: 0 VNĐ</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </item>
     <item>
      <widget class="QTableWidget" name="table_GiaoDich">
@@ -79,6 +238,11 @@
       <column>
        <property name="text">
         <string>Ngày</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Ghi chú</string>
        </property>
       </column>
      </widget>

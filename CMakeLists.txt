@@ -1,3 +1,4 @@
+
 cmake_minimum_required(VERSION 3.16)
 
 project(QuanLyChiTieu VERSION 0.1 LANGUAGES CXX)
@@ -20,6 +21,8 @@ set(PROJECT_SOURCES
         dulieu.h
         xuly_file.h
         xuly_file.cpp
+        loc_dulieu.h
+        loc_dulieu.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

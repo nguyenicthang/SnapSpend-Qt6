@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "QuanLyChiTieu_autogen/timestamp" "custom" "QuanLyChiTieu_autogen/deps"
   "C:/QuanLyChiTieu/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/QuanLyChiTieu_autogen/mocs_compilation.cpp" "CMakeFiles/QuanLyChiTieu.dir/QuanLyChiTieu_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/QuanLyChiTieu.dir/QuanLyChiTieu_autogen/mocs_compilation.cpp.obj.d"
+  "C:/QuanLyChiTieu/loc_dulieu.cpp" "CMakeFiles/QuanLyChiTieu.dir/loc_dulieu.cpp.obj" "gcc" "CMakeFiles/QuanLyChiTieu.dir/loc_dulieu.cpp.obj.d"
   "C:/QuanLyChiTieu/main.cpp" "CMakeFiles/QuanLyChiTieu.dir/main.cpp.obj" "gcc" "CMakeFiles/QuanLyChiTieu.dir/main.cpp.obj.d"
   "C:/QuanLyChiTieu/mainwindow.cpp" "CMakeFiles/QuanLyChiTieu.dir/mainwindow.cpp.obj" "gcc" "CMakeFiles/QuanLyChiTieu.dir/mainwindow.cpp.obj.d"
   "C:/QuanLyChiTieu/xuly_file.cpp" "CMakeFiles/QuanLyChiTieu.dir/xuly_file.cpp.obj" "gcc" "CMakeFiles/QuanLyChiTieu.dir/xuly_file.cpp.obj.d"

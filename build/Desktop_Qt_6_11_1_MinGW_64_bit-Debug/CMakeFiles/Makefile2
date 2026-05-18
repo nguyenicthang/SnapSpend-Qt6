@@ -79,16 +79,16 @@ clean: CMakeFiles/QuanLyChiTieu_autogen.dir/clean
 # Target rules for target CMakeFiles/QuanLyChiTieu.dir
 
 # All Build rule for target.
-CMakeFiles/QuanLyChiTieu.dir/all: CMakeFiles/QuanLyChiTieu_autogen_timestamp_deps.dir/all
 CMakeFiles/QuanLyChiTieu.dir/all: CMakeFiles/QuanLyChiTieu_autogen.dir/all
+CMakeFiles/QuanLyChiTieu.dir/all: CMakeFiles/QuanLyChiTieu_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuanLyChiTieu.dir\build.make CMakeFiles/QuanLyChiTieu.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuanLyChiTieu.dir\build.make CMakeFiles/QuanLyChiTieu.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\QuanLyChiTieu\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target QuanLyChiTieu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\QuanLyChiTieu\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target QuanLyChiTieu"
 .PHONY : CMakeFiles/QuanLyChiTieu.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/QuanLyChiTieu.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\QuanLyChiTieu\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\QuanLyChiTieu\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/QuanLyChiTieu.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\QuanLyChiTieu\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : CMakeFiles/QuanLyChiTieu.dir/rule
@@ -135,7 +135,7 @@ CMakeFiles/QuanLyChiTieu_autogen_timestamp_deps.dir/clean:
 CMakeFiles/QuanLyChiTieu_autogen.dir/all: CMakeFiles/QuanLyChiTieu_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuanLyChiTieu_autogen.dir\build.make CMakeFiles/QuanLyChiTieu_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuanLyChiTieu_autogen.dir\build.make CMakeFiles/QuanLyChiTieu_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\QuanLyChiTieu\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=7 "Built target QuanLyChiTieu_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\QuanLyChiTieu\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=8 "Built target QuanLyChiTieu_autogen"
 .PHONY : CMakeFiles/QuanLyChiTieu_autogen.dir/all
 
 # Build rule for subdir invocation for target.

@@ -343,6 +343,12 @@
 	[
 		[ "C:/QuanLyChiTieu/dulieu.h", "MU", "EWIEGA46WW/moc_dulieu.cpp", null ],
 		[
+			"C:/QuanLyChiTieu/loc_dulieu.h",
+			"MU",
+			"EWIEGA46WW/moc_loc_dulieu.cpp",
+			null
+		],
+		[
 			"C:/QuanLyChiTieu/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -427,6 +433,7 @@
 	"SETTINGS_FILE" : "C:/QuanLyChiTieu/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/QuanLyChiTieu_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/QuanLyChiTieu/loc_dulieu.cpp", "MU", null ],
 		[ "C:/QuanLyChiTieu/main.cpp", "MU", null ],
 		[ "C:/QuanLyChiTieu/mainwindow.cpp", "MU", null ],
 		[ "C:/QuanLyChiTieu/xuly_file.cpp", "MU", null ]
